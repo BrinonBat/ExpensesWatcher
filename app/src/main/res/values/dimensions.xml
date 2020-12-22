@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="horizontal_margin">40dp</dimen>
+    <dimen name="priceSize">55dp</dimen>
+    <dimen name="content_margin">5dp</dimen>
+</resources>

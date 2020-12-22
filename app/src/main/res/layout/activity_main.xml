@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/secColor">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/horizontal_margin"
+        android:layout_marginEnd="@dimen/horizontal_margin">
+
+        <!-- main layout -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@color/thiColor"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="textEnd"
+                android:singleLine="true"
+                android:layout_weight="1"
+                android:layout_marginStart="@dimen/content_margin"
+                android:textSize="@dimen/priceSize"
+                android:inputType="numberDecimal"
+                android:textColor="@color/secColor"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="@dimen/content_margin"
+                android:text="@string/currency"
+                android:textSize="@dimen/priceSize"
+                android:textColor="@color/secColor"
+                android:gravity="center_vertical"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_gravity="bottom"
+            android:layout_height="80dp"
+            android:background="@color/thiColor"
+            >
+
+            <Spinner
+                android:id="@+id/categories"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textColor="@color/secColor"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/validate_btn_label"
+                />
+
+        </LinearLayout>
+
+        <!-- border layouts-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/border"/>
+    </FrameLayout>
+
+</LinearLayout>
