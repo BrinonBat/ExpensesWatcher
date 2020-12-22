@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MoneyWatcher</string>
+    <string name="app_name">ExpensesWatcher</string>
     <string name="subtitle">depense</string>
     <string name="currency">€ </string>
     <string name="validate_btn_label">OK</string>
