@@ -3,7 +3,7 @@ My first mobile application, which purpose is to help me taking care of my savin
 
 ## To do list :
   - [x] Home page UI
-  - [] ManageCategory page UI
+  - [ ] ManageCategory page UI
   - [] SeeExpenses page UI
   - [] database management
     - [] expenses database creation
