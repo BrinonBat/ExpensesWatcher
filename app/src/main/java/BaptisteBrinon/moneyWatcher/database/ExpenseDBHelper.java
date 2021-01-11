@@ -18,10 +18,11 @@ public class ExpenseDBHelper extends SQLiteOpenHelper {
         //table holding data
         final String SQL_CREATE_WAITLIST_TABLE ="CREATE TABLE " +
                 ExpensesContract.ExpensesEntry.TABLE_NAME + " ("+
-                ExpensesContract.ExpensesEntry._ID + "INTEGER PRIMARY KEY AUTOINCREMENT, " +
-                ExpensesContract.ExpensesEntry.COLUMN_AMOUNT + "FLOAT NOT NULL, " +
-                ExpensesContract.ExpensesEntry.COLUMN_CATEGORY + "CATEGORIES NOT NULL, " +
+                ExpensesContract.ExpensesEntry._ID + " INTEGER PRIMARY KEY AUTOINCREMENT," +
+                ExpensesContract.ExpensesEntry.COLUMN_AMOUNT + " FLOAT NOT NULL, " +
+               ExpensesContract.ExpensesEntry.COLUMN_CATEGORY + " STRING NOT NULL " +
                 "); ";
+        System.out.println(SQL_CREATE_WAITLIST_TABLE);
         sqLiteDatabase.execSQL(SQL_CREATE_WAITLIST_TABLE);
     }
 

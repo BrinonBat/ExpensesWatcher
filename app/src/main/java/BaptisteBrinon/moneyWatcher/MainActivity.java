@@ -9,9 +9,9 @@ import BaptisteBrinon.moneyWatcher.database.ExpenseDBHelper;
 import BaptisteBrinon.moneyWatcher.database.ExpensesContract;
 
 public class MainActivity extends AppCompatActivity {
-    static final int ADD_EXPENSE_REQUEST = 1;
+    //static final int ADD_EXPENSE_REQUEST = 1;
     private SQLiteDatabase expenses_db;
-    private SQLiteDatabase categories_db;
+    //private SQLiteDatabase categories_db;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

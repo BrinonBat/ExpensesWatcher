@@ -18,8 +18,7 @@ public class CategoryDBHelper extends SQLiteOpenHelper {
         //table holding data
         final String SQL_CREATE_WAITLIST_TABLE ="CREATE TABLE " +
                 CategoriesContract.CategoriesEntry.TABLE_NAME + " ("+
-                CategoriesContract.CategoriesEntry._ID + "INTEGER PRIMARY KEY AUTOINCREMENT, " +
-                CategoriesContract.CategoriesEntry.COLUMN_NAME + "FLOAT NOT NULL, " +
+                CategoriesContract.CategoriesEntry.COLUMN_NAME + " FLOAT PRIMARY KEY " +
                 "); ";
         sqLiteDatabase.execSQL(SQL_CREATE_WAITLIST_TABLE);
     }
