@@ -67,11 +67,17 @@ public class CategoryDBHelper extends SQLiteOpenHelper {
         return list;
     }
 
-    private boolean remove_category(String name) {
+    public void remove_category(String name) {
         SQLiteDatabase db = this.getWritableDatabase();
+        //db.execSQL("DELETE FROM " + TABLE_NAME + " WHERE " + COLUMN_NAME + " = " + name);
+        //db.delete(TABLE_NAME, COLUMN_NAME+ "=" + name, null);
+
+
         boolean ok = db.delete(TABLE_NAME, COLUMN_NAME+ "=" + name, null) > 0;
         db.close();
-        return ok; // so I can handle some errors
+        //return ok; // so I can handle some errors
+
+
     }
 
 }

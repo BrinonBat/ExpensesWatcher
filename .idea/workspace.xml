@@ -11,21 +11,37 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f86465b5-db7b-41a8-8ee8-0f083991d5b7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/BaptisteBrinon/moneyWatcher/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/BaptisteBrinon/moneyWatcher/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/BaptisteBrinon/moneyWatcher/database/CategoriesContract.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/BaptisteBrinon/moneyWatcher/database/CategoryDBHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/BaptisteBrinon/moneyWatcher/database/CategoryDBHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Oreo_8.0_portrait]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -47,6 +63,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="layoutResourceFile_vertical" />
       </list>
     </option>
   </component>
@@ -68,7 +85,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../TP04.E04-TodoList-database" />
-    <property name="settings.editor.selected.configurable" value="ics" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -156,6 +173,42 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:/home/etudiant/AndroidStudioProjects/MyProjects/MoneyWatcher/app/src/main/res/layout" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="1250" y="241" key="#com.intellij.ide.util.MemberChooser" timestamp="1608627477736">
       <screen x="0" y="32" width="1920" height="1016" />
@@ -173,30 +226,34 @@
       <screen x="0" y="32" width="1920" height="1016" />
     </state>
     <state x="872" y="425" key="AndroidCreateResourceDirectoryDialog/0.32.1920.1016@0.32.1920.1016" timestamp="1608627338688" />
+    <state x="144" y="397" key="AndroidCreateResourceFileDialog" timestamp="1611337607115">
+      <screen x="0" y="32" width="1920" height="1016" />
+    </state>
+    <state x="144" y="397" key="AndroidCreateResourceFileDialog/0.32.1920.1016@0.32.1920.1016" timestamp="1611337607115" />
     <state x="651" y="285" width="436" height="497" key="FileChooserDialogImpl" timestamp="1610356936548">
       <screen x="0" y="32" width="1920" height="1016" />
     </state>
     <state x="651" y="285" width="436" height="497" key="FileChooserDialogImpl/0.32.1920.1016@0.32.1920.1016" timestamp="1610356936548" />
-    <state width="908" height="263" key="GridCell.Tab.0.bottom" timestamp="1610360399030">
+    <state width="908" height="263" key="GridCell.Tab.0.bottom" timestamp="1611339399679">
       <screen x="0" y="32" width="1920" height="1016" />
     </state>
-    <state width="908" height="263" key="GridCell.Tab.0.bottom/0.32.1920.1016@0.32.1920.1016" timestamp="1610360399030" />
-    <state width="908" height="263" key="GridCell.Tab.0.center" timestamp="1610360399030">
+    <state width="908" height="263" key="GridCell.Tab.0.bottom/0.32.1920.1016@0.32.1920.1016" timestamp="1611339399679" />
+    <state width="908" height="263" key="GridCell.Tab.0.center" timestamp="1611339399679">
       <screen x="0" y="32" width="1920" height="1016" />
     </state>
-    <state width="908" height="263" key="GridCell.Tab.0.center/0.32.1920.1016@0.32.1920.1016" timestamp="1610360399030" />
-    <state width="908" height="263" key="GridCell.Tab.0.left" timestamp="1610360399029">
+    <state width="908" height="263" key="GridCell.Tab.0.center/0.32.1920.1016@0.32.1920.1016" timestamp="1611339399679" />
+    <state width="908" height="263" key="GridCell.Tab.0.left" timestamp="1611339399679">
       <screen x="0" y="32" width="1920" height="1016" />
     </state>
-    <state width="908" height="263" key="GridCell.Tab.0.left/0.32.1920.1016@0.32.1920.1016" timestamp="1610360399029" />
-    <state width="908" height="263" key="GridCell.Tab.0.right" timestamp="1610360399030">
+    <state width="908" height="263" key="GridCell.Tab.0.left/0.32.1920.1016@0.32.1920.1016" timestamp="1611339399679" />
+    <state width="908" height="263" key="GridCell.Tab.0.right" timestamp="1611339399679">
       <screen x="0" y="32" width="1920" height="1016" />
     </state>
-    <state width="908" height="263" key="GridCell.Tab.0.right/0.32.1920.1016@0.32.1920.1016" timestamp="1610360399030" />
-    <state x="455" y="168" key="SettingsEditor" timestamp="1608631812431">
+    <state width="908" height="263" key="GridCell.Tab.0.right/0.32.1920.1016@0.32.1920.1016" timestamp="1611339399679" />
+    <state x="455" y="168" key="SettingsEditor" timestamp="1611337502732">
       <screen x="0" y="32" width="1920" height="1016" />
     </state>
-    <state x="455" y="168" key="SettingsEditor/0.32.1920.1016@0.32.1920.1016" timestamp="1608631812431" />
+    <state x="455" y="168" key="SettingsEditor/0.32.1920.1016@0.32.1920.1016" timestamp="1611337502732" />
     <state x="1239" y="316" key="chooseDestDirectoryDialog" timestamp="1608544312540">
       <screen x="0" y="32" width="1920" height="1016" />
     </state>
