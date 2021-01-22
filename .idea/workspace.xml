@@ -13,11 +13,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f86465b5-db7b-41a8-8ee8-0f083991d5b7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/BaptisteBrinon/moneyWatcher/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/BaptisteBrinon/moneyWatcher/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/BaptisteBrinon/moneyWatcher/database/CategoriesContract.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/BaptisteBrinon/moneyWatcher/database/CategoryDBHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/BaptisteBrinon/moneyWatcher/database/CategoryDBHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/BaptisteBrinon/moneyWatcher/database/ExpenseDBHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/BaptisteBrinon/moneyWatcher/database/ExpenseDBHelper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +54,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1lxfuR00EUZyEEdC15RDXJ0suPs" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -157,6 +161,10 @@
       <screen x="0" y="32" width="1920" height="1016" />
     </state>
     <state x="1250" y="241" key="#com.intellij.ide.util.MemberChooser/0.32.1920.1016@0.32.1920.1016" timestamp="1608627477736" />
+    <state x="209" y="282" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1610443944275">
+      <screen x="0" y="32" width="1920" height="1016" />
+    </state>
+    <state x="209" y="282" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.32.1920.1016@0.32.1920.1016" timestamp="1610443944275" />
     <state x="1066" y="132" width="754" height="816" key="AVDManager" timestamp="1608629160286">
       <screen x="0" y="32" width="1920" height="1016" />
     </state>
